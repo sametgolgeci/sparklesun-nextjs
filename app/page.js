@@ -71,10 +71,11 @@ export default function Home() {
         <p>We are delighted to connect with you at Sparkle Sun LLC. Customer satisfaction is our top priority, and we are excited to collaborate with you. To better understand your needs, answer your questions, or explore potential partnerships, feel free to reach out to us using the information below</p>
         <p className={styles.contactTitle}><strong>Address</strong></p>
         <p>Sparkle Sun LLC</p>
-        <p>[Company Address]</p>
-        <p>[City, Country, Postal Code]</p>
+        <p>30 N Gould St STE 38614</p>
+        <p>Wyoming Sheridan</p>
+        <p>82801</p>
         <p className={styles.contactTitle}><strong>Phone</strong></p>
-        <p>+1 (949) 282 79 72</p>
+        <p>+1 (949) 690 94 48</p>
         <p className={styles.contactTitle}><strong>Email</strong></p>
         <p><a href="mailto:info@sparklesunny.com">info@sparklesunny.com</a></p>
       </div>
