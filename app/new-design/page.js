@@ -5,14 +5,28 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <section className={styles.section}>
-        <h1>İLK BÖLÜM</h1>
-        <h6>Sayfanın ilk bölümü, genel olarak logo ve ufak tanıtım gibi bir bölüm</h6>
+
+      <section className={styles.headerSide}>
+        <div className={styles.leftSide}>
+          <Link href="/new-design">
+            <img className={styles.logo} src="/sparklesun-logo.svg" title="Sparklesun Logo"/>
+          </Link>
+        </div>
+        <div className={styles.rightSide}>
+          <ul>
+            <li>
+              <Link href="/about-us">About Us</Link>
+            </li>
+            <li>
+              <Link href="#">Contact Us</Link>
+            </li>
+          </ul>
+        </div>
       </section>
       <section className={styles.topOne}>
         <div className={styles.description}>
-          <h2>Lorem ipsum dolor sit amet</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          <h2>Every vein tells a story</h2>
+          <p>Our stones carry millions of years of history into your design</p>
         </div>
         <img className={styles.logo} src="/sparklesun-logo.svg" title="Sparklesun Logo"/>
       </section>
@@ -21,30 +35,27 @@ export default function Home() {
           <img className={styles.topImage} src="/marbleImage01.jpg" title="Sparklesun Image"/>
         </div>
         <div className={styles.description}>
-          <h2>Lorem ipsum dolor sit amet</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h2>The natural beauty of stone, the soul of your space</h2>
+          <p>Let timeless textures breathe life into your architectural vision — from tranquil living spaces to bold commercial designs, our natural stones bring warmth, character, and authenticity to every surface they touch</p>
           <Link href='#'><button>Contact Us</button></Link>
         </div>
       </section>
-      <section className={styles.section}>
-        <h1>İKİNCİ BÖLÜM - ARA KATMANLAR</h1>
-        <h6>İçerikler, ürün bilgileri, sıkça sorulanlar, örnek çalışmalar gibi kısımların toplandığı bölüm</h6>
-      </section>
+
       <section className={styles.mainOne}>
         <div className={styles.card}>
           <div className={styles.number}>01</div>
-          <div className={styles.header}>Lorem İpsum Dolar</div>
-          <div className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+          <div className={styles.header}>Reliable<br/>Sourcing</div>
+          <div className={styles.description}>We source premium natural stones directly from leading Turkish quarries</div>
         </div>
         <div className={styles.card}>
           <div className={styles.number}>02</div>
-          <div className={styles.header}>Lorem İpsum Dolar</div>
-          <div className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+          <div className={styles.header}>Dependable<br/>Delivery</div>
+          <div className={styles.description}>With strong logistics, we ensure timely and consistent deliveries every time</div>
         </div>
         <div className={styles.card}>
           <div className={styles.number}>03</div>
-          <div className={styles.header}>Lorem İpsum Dolar</div>
-          <div className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+          <div className={styles.header}>Long-Term<br/>Partnerships</div>
+          <div className={styles.description}>We build lasting relationships based on trust, transparency, and shared success</div>
         </div>
       </section>
       <section className={styles.mainTwo}>
@@ -56,8 +67,8 @@ export default function Home() {
         </div>
         <div className={styles.rightSide}>
           <h6>About Us</h6>
-          <h2>Lorem ipsum dolor sit amet</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h2>Timeless marble solutions for spaces that inspire</h2>
+          <p>Sparkle Sun LLC supplies high-quality natural stones from Turkey’s leading marble quarries to the North American market. While marble is our core product, we also source granite and other stones upon request. With competitive pricing and a strong supply network, we ensure consistent quality and reliable delivery</p>
         </div>
       </section>
       <section className={styles.mainThree}>
@@ -85,6 +96,32 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className={styles.footer}>
+        <div className={styles.leftSide}>
+          <Link href="/">
+            <img className={styles.logo} src="/sparklesun-logo.svg" title="Sparklesun Logo"/>
+          </Link>
+        </div>
+        <div className={styles.rightSide}>
+          <h6>Wyoming</h6>
+          <p>30 N Gould St STE 38614</p>
+          <p>Wyoming Sheridan ,82801</p>
+          <h6>İstanbul</h6>
+          <p>Lorem dolar sit amet</p>
+          <p>Lorem dolar sit amet</p>
+        </div>
+        <div className={styles.rightSide}>
+          <h6>Phone</h6>
+          <p>+1 (949) 690 94 48</p>
+          <h6>Mail</h6>
+          <p>info@sparklesunny.com</p>
+        </div>
+      </section>
+      <section className={styles.footerTwo}>
+        <p>© 2025 - All Rights Reserved</p>
+      </section>
+      
     </main>
   )
 }

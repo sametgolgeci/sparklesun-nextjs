@@ -11,12 +11,6 @@
 
   --primaryColor: 255, 255, 255;
   --secondryColor: 0, 0, 0;
-  --thirdColor: 51, 51, 51;
-
-  --orangeColor: 231, 162, 91;
-  --footerColor: 32, 35, 41;
-  --footerAltColor: 15, 23, 42;
-  --footerCopyColor: 27, 30, 36;
 }
 
 * {
@@ -46,11 +40,3 @@ a {
   text-decoration: none;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-}
-li {
-  list-style: none;
-  padding: 0 8px;
-}
