@@ -18,6 +18,9 @@ export default function Home() {
               <Link href="/about-us">About Us</Link>
             </li>
             <li>
+              <Link href="/our-products">Our Products</Link>
+            </li>
+            <li>
               <Link href="#">Contact Us</Link>
             </li>
           </ul>
@@ -77,22 +80,22 @@ export default function Home() {
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect01.jpg" title="Sparklesun Image"/>
             <h5>VEZIR BEIGE LIGHT</h5>
-            <p>Sizes/Dimensions<br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
           </div>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect02.jpg" title="Sparklesun Image"/>
             <h5>VEZIR BEIGE DARK</h5>
-            <p>Sizes/Dimensions<br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
           </div>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect03.jpg" title="Sparklesun Image"/>
             <h5>VEZIR BEIGE MUCARTALI</h5>
-            <p>Sizes/Dimensions<br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
           </div>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect04.jpg" title="Sparklesun Image"/>
             <h5>VEZIR BEIGE (MFE)</h5>
-            <p>Sizes/Dimensions<br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
           </div>
         </div>
       </section>

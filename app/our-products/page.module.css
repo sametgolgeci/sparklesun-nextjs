@@ -60,7 +60,7 @@
   align-items: center;
 }
 .topOne .description {
-  width: 50%;
+
 }
 .topOne .description h2 {
   font-size: 48px;
@@ -79,7 +79,6 @@
 .topTwo {
   background-color: rgb(var(--primaryColor));
   width: 100vw;
-  height: 75vh;
 
   color:rgb(var(--secondryColor));
 
@@ -87,42 +86,54 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 5%;
 }
 .topTwo .description {
   width: 70vw;
   padding: 0 10vw;
 }
-.topTwo .description h2 {
-  font-size: 48px;
-  padding: 16px 0;
-}
 .topTwo .description p {
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 1.5;
-}
-.topTwo .description button {
-  font-size: 16px;
-  padding: 8px 16px;
-  margin: 16px 0;
-  background-color: rgb(var(--primaryColor));
-  color: rgb(var(--secondryColor));
-  border: 1px solid black;
-  border-radius: 8px;
-  cursor: pointer;
-}
-.topTwo .description button:hover {
-  background-color: rgb(var(--secondryColor));
-  color: rgb(var(--primaryColor));
+  padding: 8px 0;
 }
 .topTwo .leftSide {
-  width: 30vw;
-  padding-left: 5vw;
+  width: 50vw;
+  padding-left: 5%;
 }
 .topTwo .leftSide .topImage {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+}
+
+.topThree {
+  background-color: rgb(var(--primaryColor));
+  width: 100vw;
+
+  color:rgb(var(--secondryColor));
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.topThree .description {
+  width: 50vw;
+  padding: 0 10vw;
+}
+.topThree .description p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.topThree .leftSide {
+  width: 50vw;
+  padding: 5%;
+}
+.topThree .leftSide .topImage {
+  width: 100%;
+  height: auto;
 }
 
 /* Main Side*/
@@ -195,11 +206,6 @@
   object-fit: contain;
   border-radius: 50%;
   padding: 5%;
-  transition: all .4s ease-in-out;
-}
-.mainTwo .leftSide .mainImage:hover {
-  transform: scale(1.1);
-  transition: all .4s ease-in-out;
 }
 .mainTwo .rightSide {
   width: 50vw;
@@ -211,21 +217,6 @@
 }
 .mainTwo .rightSide h6 {
   font-size: 16px;
-  display: inline-block;
-  position: relative;
-}
-.mainTwo .rightSide h6::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 6px;
-  padding: 0 2px;
-  background-color: rgba(255, 165, 0, 0.4);
-  transform: skewX(20deg);
-  z-index: 0;
-  border-radius: 2px;
 }
 .mainTwo .rightSide p {
   font-size: 12px;
@@ -246,22 +237,10 @@
 .mainThree h1 {
   font-size: 64px;
   margin: 32px;
-
-  display: inline-block;
-  position: relative;
 }
-.mainThree h1::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 12px;
-  width: 100%;
-  height: 12px;
-  padding: 0 4px;
-  background-color: rgba(255, 165, 0, 0.4);
-  transform: skewX(20deg);
-  z-index: 0;
-  border-radius: 2px;
+.mainThree h5 {
+  font-size: 16px;
+  margin: 32px;
 }
 .mainThree .cards {
   display: flex;
@@ -271,21 +250,23 @@
   margin: 0 10%;
 }
 .mainThree .card {
-  width: 25%;
+  width: 50%;
   padding: 8px;
-  margin-top: 16px;
-  transition: all .4s ease-in-out;
+  display: flex;
 }
-.mainThree .card:hover {
-  margin-top: 0px;
-  transition: all .4s ease-in-out;
+.mainThree .cards:hover img {
+  filter: grayscale(100%);
 }
 .mainThree .card img {
-  width: 100%;
+  width: 50%;
+  transition: filter 0.4s ease;
+}
+.mainThree .card:hover img {
+  filter: none;
 }
 .mainThree .card h5 {
   font-size: 18px;
-  margin: 16px 0;
+  margin: 16px 8px;
   padding-right: 6px;
 
   display: inline-block;
@@ -296,15 +277,21 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 0;
   height: 8px;
   background-color: rgba(255, 165, 0, 0.4);
   transform: skewX(20deg);
   z-index: 0;
   border-radius: 2px;
+  transition: width 0.4s ease-in-out;
+}
+.mainThree .card:hover h5::after {
+  width: 100%;
 }
 .mainThree .card p {
   font-size: 14px;
+  margin: 8px 8px;
+  width: 100%;
 }
 
 /* Footer Side */
@@ -324,7 +311,6 @@
 }
 .footer .leftSide {
   width: 33.3%;
-
 }
 .footer .leftSide .logo {
   width: 100%;

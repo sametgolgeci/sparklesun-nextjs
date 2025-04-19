@@ -18,6 +18,9 @@ export default function Home() {
               <Link href="/about-us">About Us</Link>
             </li>
             <li>
+              <Link href="/our-products">Our Products</Link>
+            </li>
+            <li>
               <Link href="#">Contact Us</Link>
             </li>
           </ul>
