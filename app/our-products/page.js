@@ -8,7 +8,7 @@ export default function Home() {
     
       <section className={styles.headerSide}>
         <div className={styles.leftSide}>
-          <Link href="/new-design">
+          <Link href="/">
             <img className={styles.logo} src="/sparklesun-logo.svg" title="Sparklesun Logo"/>
           </Link>
         </div>
@@ -21,7 +21,7 @@ export default function Home() {
               <Link href="/our-products">Our Products</Link>
             </li>
             <li>
-              <Link href="#">Contact Us</Link>
+              <Link href="mailto:info@sparklesunny.com">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -76,12 +76,12 @@ export default function Home() {
           <p>30 N Gould St STE 38614</p>
           <p>Wyoming Sheridan ,82801</p>
           <h6>İstanbul</h6>
-          <p>Lorem dolar sit amet</p>
-          <p>Lorem dolar sit amet</p>
+          <p>Hasanpasa Mahallesi, Kurbagilidere Caddesi</p>
+          <p>Altunel Is Hani No: 51\53 Kadikoy/İstanbul</p>
         </div>
         <div className={styles.rightSide}>
           <h6>Phone</h6>
-          <p>+1 (949) 690 94 48</p>
+          <p>+1 949 315 56 25</p>
           <h6>Mail</h6>
           <p>info@sparklesunny.com</p>
         </div>

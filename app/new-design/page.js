@@ -8,7 +8,7 @@ export default function Home() {
 
       <section className={styles.headerSide}>
         <div className={styles.leftSide}>
-          <Link href="/new-design">
+          <Link href="/">
             <img className={styles.logo} src="/sparklesun-logo.svg" title="Sparklesun Logo"/>
           </Link>
         </div>
@@ -21,7 +21,7 @@ export default function Home() {
               <Link href="/our-products">Our Products</Link>
             </li>
             <li>
-              <Link href="#">Contact Us</Link>
+              <Link href="mailto:info@sparklesunny.com">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -40,7 +40,7 @@ export default function Home() {
         <div className={styles.description}>
           <h2>The natural beauty of stone, the soul of your space</h2>
           <p>Let timeless textures breathe life into your architectural vision — from tranquil living spaces to bold commercial designs, our natural stones bring warmth, character, and authenticity to every surface they touch</p>
-          <Link href='#'><button>Contact Us</button></Link>
+          <Link href="mailto:info@sparklesunny.com"><button>Contact Us</button></Link>
         </div>
       </section>
 
@@ -79,23 +79,31 @@ export default function Home() {
         <div className={styles.cards}>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect01.jpg" title="Sparklesun Image"/>
-            <h5>VEZIR BEIGE LIGHT</h5>
-            <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            <div>
+              <h5>VEZIR BEIGE LIGHT</h5>
+              <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            </div>
           </div>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect02.jpg" title="Sparklesun Image"/>
-            <h5>VEZIR BEIGE DARK</h5>
-            <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            <div>
+              <h5>VEZIR BEIGE DARK</h5>
+              <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            </div>
           </div>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect03.jpg" title="Sparklesun Image"/>
-            <h5>VEZIR BEIGE MUCARTALI</h5>
-            <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            <div>
+              <h5>VEZIR BEIGE MUCARTALI</h5>
+              <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            </div>
           </div>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect04.jpg" title="Sparklesun Image"/>
-            <h5>VEZIR BEIGE (MFE)</h5>
-            <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            <div>
+              <h5>VEZIR BEIGE (MFE)</h5>
+              <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80 2x100x100<br/>Sizes according to personal choices/tastes</p>
+            </div>
           </div>
         </div>
       </section>
@@ -111,12 +119,12 @@ export default function Home() {
           <p>30 N Gould St STE 38614</p>
           <p>Wyoming Sheridan ,82801</p>
           <h6>İstanbul</h6>
-          <p>Lorem dolar sit amet</p>
-          <p>Lorem dolar sit amet</p>
+          <p>Hasanpasa Mahallesi, Kurbagilidere Caddesi</p>
+          <p>Altunel Is Hani No: 51\53 Kadikoy/İstanbul</p>
         </div>
         <div className={styles.rightSide}>
           <h6>Phone</h6>
-          <p>+1 (949) 690 94 48</p>
+          <p>+1 949 315 56 25</p>
           <h6>Mail</h6>
           <p>info@sparklesunny.com</p>
         </div>
