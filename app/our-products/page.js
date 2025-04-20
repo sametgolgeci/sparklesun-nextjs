@@ -62,6 +62,13 @@ export default function Home() {
               <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80, 2x100x100,<br/>Sizes according to personal choices/tastes</p>
             </div>
           </div>
+          <div className={styles.card}>
+            <img className={styles.mainImage} src="/productRect05.jpg" title="Sparklesun Image"/>
+            <div>
+              <h5 className={styles.h5}>VEZIR BEIGE (MDE)</h5>
+              <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80, 2x100x100,<br/>Sizes according to personal choices/tastes</p>
+            </div>
+          </div>
         </div>
       </section>
 

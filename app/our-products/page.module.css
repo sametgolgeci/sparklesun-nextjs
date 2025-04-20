@@ -227,6 +227,7 @@
   width: 100%;
   height: auto;
   min-height: 100vh;
+  margin-bottom: 64px;
 
   color:rgb(var(--secondryColor));
 
