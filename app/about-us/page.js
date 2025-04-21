@@ -58,7 +58,7 @@ export default function Home() {
       </section>
       <section className={styles.topThree}>
         <div className={styles.leftSide}>
-          <img className={styles.topImage} src="/aboutus04.jpg" title="Sparklesun Image"/>
+          <img className={styles.topImage} src="/aboutus05.jpg" title="Sparklesun Image"/>
         </div>
         <div className={styles.description}>
           <p>At Sparkle Sun, our goal is to become a trusted supplier in the industry by building long-term partnerships based on reliability, transparency, and quality service.</p>
