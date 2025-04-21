@@ -7,8 +7,18 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Sparkle Sun',
-  description: 'Every vein tells a story',
+  title: 'Sparkle Sun LLC',
+  description: 'Supplying high-quality marble and natural stones from Turkey to the North American market. Elegant, durable solutions for architecture, construction, and interior design.',
+  keywords: ['marble supplier','Turkish marble','natural stone','granite','marble slabs','stone exporter','interior design materials','construction materials','premium marble California','marble for architecture','natural stone USA','Sparkle Sun LLC','Sparkle Sun','Sparkle Sunny','Sparkle Sunny LLC','Sparkle','Sparkle Sun marble','Sparkle Sun natural stone','Sparkle Sun USA','Sparkle Sun California','Sparkle Sun Turkish marble','Sparkle Sun granite','Sparkle Sun interior design','Sparkle Sun construction materials'],
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 }
 
 export default function RootLayout({ children }) {
