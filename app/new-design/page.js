@@ -116,8 +116,8 @@ export default function Home() {
         </div>
         <div className={styles.rightSide}>
           <h6>Wyoming</h6>
-          <p>30 N Gould St STE 38614</p>
-          <p>Wyoming Sheridan ,82801</p>
+          <p>30 N Gould St Ste</p>
+          <p>R Sheridan WY,82801</p>
           <h6>İstanbul</h6>
           <p>Hasanpasa Mahallesi, Kurbagilidere Caddesi</p>
           <p>Altunel Is Hani No: 51\53 Kadikoy/İstanbul</p>

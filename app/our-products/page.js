@@ -37,35 +37,35 @@ export default function Home() {
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect01.jpg" title="Sparklesun Image"/>
             <div>
-              <h5>VEZIR BEIGE LIGHT</h5>
+              <h5>BEIGE LIGHT</h5>
               <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80, 2x100x100,<br/>Sizes according to personal choices/tastes</p>
             </div>
           </div>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect02.jpg" title="Sparklesun Image"/>
             <div>
-              <h5>VEZIR BEIGE DARK</h5>
+              <h5>BEIGE DARK</h5>
               <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80, 2x100x100,<br/>Sizes according to personal choices/tastes</p>
             </div>
           </div>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect03.jpg" title="Sparklesun Image"/>
             <div>
-              <h5>VEZIR BEIGE MUCARTALI</h5>
+              <h5>BEIGE MUCARTALI</h5>
               <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80, 2x100x100,<br/>Sizes according to personal choices/tastes</p>
             </div>
           </div>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect04.jpg" title="Sparklesun Image"/>
             <div>
-              <h5 className={styles.h5}>VEZIR BEIGE (MFE)</h5>
+              <h5>BEIGE (MFE)</h5>
               <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80, 2x100x100,<br/>Sizes according to personal choices/tastes</p>
             </div>
           </div>
           <div className={styles.card}>
             <img className={styles.mainImage} src="/productRect05.jpg" title="Sparklesun Image"/>
             <div>
-              <h5 className={styles.h5}>VEZIR BEIGE (MDE)</h5>
+              <h5>BEIGE (MDE)</h5>
               <p><strong>Sizes/Dimensions</strong><br/>2x30x30, 2x30x60, 2x40x40, 2x50x50, 2x60x60, 2x80x80, 2x100x100,<br/>Sizes according to personal choices/tastes</p>
             </div>
           </div>
@@ -80,8 +80,8 @@ export default function Home() {
         </div>
         <div className={styles.rightSide}>
           <h6>Wyoming</h6>
-          <p>30 N Gould St STE 38614</p>
-          <p>Wyoming Sheridan ,82801</p>
+          <p>30 N Gould St Ste</p>
+          <p>R Sheridan WY,82801</p>
           <h6>İstanbul</h6>
           <p>Hasanpasa Mahallesi, Kurbagilidere Caddesi</p>
           <p>Altunel Is Hani No: 51\53 Kadikoy/İstanbul</p>

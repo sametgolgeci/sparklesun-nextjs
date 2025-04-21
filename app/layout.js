@@ -1,11 +1,14 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({
+  display: 'swap', 
+  subsets: ['latin'], 
+})
 
 export const metadata = {
   title: 'Sparkle Sun',
-  description: 'Slogan',
+  description: 'Every vein tells a story',
 }
 
 export default function RootLayout({ children }) {
