@@ -20,7 +20,7 @@ export const metadata = {
     },
   },
   verification: {
-    google: 'google-site-verification=uOnEzMOut8zdsqlkaHoPcAs7uqKr4KRlE6oM1wX4PaI', // Buraya Google’ın verdiği kodu ekle
+    google: 'uOnEzMOut8zdsqlkaHoPcAs7uqKr4KRlE6oM1wX4PaI',
   }
 }
 
