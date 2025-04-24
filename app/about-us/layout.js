@@ -19,6 +19,9 @@ export const metadata = {
       follow: true,
     },
   },
+  verification: {
+    google: 'google-site-verification=uOnEzMOut8zdsqlkaHoPcAs7uqKr4KRlE6oM1wX4PaI', // Buraya Google’ın verdiği kodu ekle
+  }
 }
 
 export default function RootLayout({ children }) {
